@@ -1,7 +1,8 @@
 // プロダクトコード
 function menseki(r) {
   const pi = 3.14
-  return r*r*pi               // <- 変数利用に変えます
+  const ret = r*r*pi        // <- 変数を用意します。
+  return r*r*pi
 }
 
 // テストコード
