@@ -1,8 +1,8 @@
 // プロダクトコード
 function getPi() {
   const pi = 3.14
-  const ret = pi              // <- 新たな変数を作ります。
-  return pi
+  const ret = pi
+  return ret                  // <- 戻り値を新たな変数に変えます。
 }
 
 // テストコード
