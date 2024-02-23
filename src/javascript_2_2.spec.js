@@ -1,8 +1,7 @@
 // プロダクトコード
 function menseki(r) {
-  // const pi = 3.14          // <- 不要になったので消します。
   const ret = r*r*3.14
-  return ret
+  return r*r*3.14             // <- 式をインライン化します。
 }
 
 // テストコード
