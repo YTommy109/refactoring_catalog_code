@@ -1,8 +1,8 @@
 // プロダクトコード
 function getPi() {
   const pi = 3.14
-  const ret = pi
-  return ret                  // <- 戻り値を新たな変数に変えます。
+  const ret = 3.14            // <- pi 依存から切り離します。
+  return ret
 }
 
 // テストコード
