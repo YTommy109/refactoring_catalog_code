@@ -10,12 +10,12 @@ function highAndLow(value) {
 }
 function main(value) {
   let ans = null
-  if (value>=50) {
-    ans = 'High'
-  } else {
-    ans = 'Low'
-  }
-  ans = highAndLow(value)   // <- 関数を使う行を追加します
+  // if (value>=50) {         // <- 使わなくなったので消します。
+  //   ans = 'High'           // <-
+  // } else {                 // <-
+  //   ans = 'Low'            // <-
+  // }                        // <-
+  ans = highAndLow(value)
   return ans
 }
 
