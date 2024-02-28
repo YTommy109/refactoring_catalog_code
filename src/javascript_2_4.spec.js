@@ -10,19 +10,14 @@ function highAndLow(value) {
 }
 function main(value) {
   let ans = null
-  // if (value>=50) {         // <- 使わなくなったので消します。
-  //   ans = 'High'           // <-
-  // } else {                 // <-
-  //   ans = 'Low'            // <-
-  // }                        // <-
   ans = highAndLow(value)
   return ans
 }
 
 // テストコード
 it('49 なら Low になること', () => {
-  expect(main(49)).toEqual('Low')
+  expect(highAndLow(49)).toEqual('Low')  // <- highAndLow のテストに変えます
 })
 it('50 なら High になること', () => {
-  expect(main(50)).toEqual('High')
+  expect(highAndLow(50)).toEqual('High')  // <- highAndLow のテストに変えます
 })
