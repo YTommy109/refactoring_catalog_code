@@ -1,4 +1,13 @@
 // プロダクトコード
+function highAndLow(value) {  // <- 関数を作成します
+  let ans = null              // <- コピペ
+  if (value>=50) {            // <- コピペ
+    ans = 'High'              // <- コピペ
+  } else {                    // <- コピペ
+    ans = 'Low'               // <- コピペ
+  }                           // <- コピペ
+  return ans                  // <- コピペ
+}                             // <- 関数の作成
 function main(value) {
   let ans = null
   if (value>=50) {
@@ -8,6 +17,7 @@ function main(value) {
   }
   return ans
 }
+
 
 // テストコード
 it('49 なら Low になること', () => {
