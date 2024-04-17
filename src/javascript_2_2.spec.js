@@ -1,6 +1,5 @@
 // プロダクトコード
 function menseki(r) {
-  // const ret = r*r*3.14     // <- 不要になったので消します
   return r*r*3.14
 }
 
