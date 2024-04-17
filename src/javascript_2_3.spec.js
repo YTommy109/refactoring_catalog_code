@@ -1,6 +1,7 @@
 // プロダクトコード
 function getPi() {
   const pi = 3.14
+
   return pi
 }
 
