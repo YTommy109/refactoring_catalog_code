@@ -1,6 +1,5 @@
 // プロダクトコード
 function getPi() {
-  // const pi = 3.14          // <- 最後に pi を消します。
   const ret = 3.14
   return ret
 }
