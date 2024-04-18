@@ -4,10 +4,10 @@ function adhoc() {
 }
 
 function zero() {
-  return adhoc()
+  return 0                    // <- 元の adhoc 関数の中身をコピペします
 }
 
 // テストコード
 it('0 を返すこと', () => {
-  expect(zero()).toBe(0)      // <- 新たな関数を使います。
+  expect(zero()).toBe(0)
 })
