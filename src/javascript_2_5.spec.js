@@ -2,28 +2,28 @@
 function fizzbuzz() {
   const ret = []
   for (let i=1; i<=3; i++) {
-    let temp = null                     // ここからコピペ
-    if (i===3) {                        //
-      temp = 'Fizz'                     //
-    } else {                            //
-      temp = String(i)                  //
-    }                                   // ここまでコピペ
+    let temp = null
+    if (i===3) {
+      temp = 'Fizz'
+    } else {
+      temp = String(i)
+    }
 
-    ret[i-1] = temp
+    ret[i-1] = hantei(i)              // 関数を使うようにします
   }
 
   return ret
 }
 
-function hantei(i) {                    // <- 新規作成を作成します
-  let temp = null                       // <- コピペ
-  if (i===3) {                          // <- コピペ
-    temp = 'Fizz'                       // <- コピペ
-  } else {                              // <- コピペ
-    temp = String(i)                    // <- コピペ
-  }                                     // <- コピペ
+function hantei(i) {
+  let temp = null
+  if (i===3) {
+    temp = 'Fizz'
+  } else {
+    temp = String(i)
+  }
 
-  return temp                           // <- 戻り値を設定を追加します
+  return temp
 }
 
 // テストコード
