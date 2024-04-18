@@ -26,6 +26,6 @@ VSCode なのでコードを開いたまま、コミット履歴を追ってみ�
 
 ### jujutsu 推奨
 
-git だと移動が面倒かもしれません。[jujuts](https://martinvonz.github.io/jj/v0.16.0/) なら `jj prev`, `jj next` で一つづつコミットを追いやすいと思います。
+git だとコミットの移動が面倒かもしれません。[jujuts](https://martinvonz.github.io/jj/v0.16.0/) なら `jj prev`, `jj next` を使って、一つずつコミットを追いやすいと思います。
 
 拙作の jujutsu の日本語の説明がこちらにあります。 [jujutsu こそ、僕たちの欲しかった VCS だ!!](https://zenn.dev/tommy109/articles/d63b46f398379c)
