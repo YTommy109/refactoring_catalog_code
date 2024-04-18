@@ -1,6 +1,6 @@
 // プロダクトコード
-function adhoc(value=0) {   // <- デフォルト値付きで仮引数を追加します。
-  return 0
+function adhoc(value=0) {
+  return value                // <-　仮引数を使うように変えます。
 }
 
 // テストコード
