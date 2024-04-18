@@ -4,11 +4,11 @@ function fizzbuzz() {
   for (let i=1; i<=3; i++) {
     let temp = null
     if (i===3) {
-      ret[i-1] = 'Fizz'
-      temp = 'Fizz'                   // <- インライン化します
+      // ret[i-1] = 'Fizz'              // <- 使わなくなったので消します
+      temp = 'Fizz'
     } else {
-      ret[i-1] = String(i)
-      temp = String(i)                // <- インライン化します
+      // ret[i-1] = String(i)           // <- 使わなくなったので消します
+      temp = String(i)
     }
     ret[i-1] = temp
   }
