@@ -1,5 +1,5 @@
 // プロダクトコード
-function adhoc() {
+function adhoc(value=0) {   // <- デフォルト値付きで仮引数を追加します。
   return 0
 }
 
