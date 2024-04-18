@@ -1,9 +1,4 @@
 // プロダクトコード
-// function isHigh(v) {       // <- 消します
-//   const value = v          //
-//   return value >= 50       //
-// }                          //
-
 function highAndLow(value) {
   let ans = 'Low'
   if (value >= 50) {
