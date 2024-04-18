@@ -2,13 +2,13 @@
 function fizzbuzz() {
   const ret = []
   for (let i=1; i<=3; i++) {
-                      // <- 行を空けます
+    let temp = null                       // <- 一時変数を作成します
     if (i===3) {
       ret[i-1] = 'Fizz'
-                      // <- 行を空けます
+      temp = ret[i-1]                     // <- 一時変数に代入します
     } else {
       ret[i-1] = String(i)
-                      // <- 行を空けます
+      temp = ret[i-1]                     // <- 一時変数に代入します
     }
   }
 
