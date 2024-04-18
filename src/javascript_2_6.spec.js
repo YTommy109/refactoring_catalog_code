@@ -1,8 +1,8 @@
 // プロダクトコード
-function isHigh(v) {
-  const value = v
-  return value >= 50
-}
+// function isHigh(v) {       // <- 消します
+//   const value = v          //
+//   return value >= 50       //
+// }                          //
 
 function highAndLow(value) {
   let ans = 'Low'
@@ -13,12 +13,6 @@ function highAndLow(value) {
 }
 
 // テストコード
-// it('49 なら false になること', () => {   // <- 消します
-//   expect(isHigh(49)).toBe(false)       // <-
-// })                                     // <-
-// it('50 なら true になること', () => {    // <-
-//   expect(isHigh(50)).toBe(true)        // <-
-// })                                     // <-
 it('49 なら Low になること', () => {
   expect(highAndLow(49)).toEqual('Low')
 })
