@@ -2,10 +2,13 @@
 function fizzbuzz() {
   const ret = []
   for (let i=1; i<=3; i++) {
+                      // <- 行を空けます
     if (i===3) {
       ret[i-1] = 'Fizz'
+                      // <- 行を空けます
     } else {
       ret[i-1] = String(i)
+                      // <- 行を空けます
     }
   }
 
