@@ -2,13 +2,6 @@
 function fizzbuzz() {
   const ret = []
   for (let i=1; i<=3; i++) {
-    // let temp = null                  // <- 使わなくなったところを消します
-    // if (i===3) {                     // <-
-    //   temp = 'Fizz'                  // <-
-    // } else {                         // <-
-    //   temp = String(i)               // <-
-    // }                                // <-
-
     ret[i-1] = hantei(i)
   }
 
