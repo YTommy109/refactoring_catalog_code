@@ -1,10 +1,10 @@
 // プロダクトコード
-function adhoc() {
-  return 0
-}
+// function adhoc() {         // <- 使わなくなった関数を消します。
+//   return 0                 //
+// }                          //
 
 function zero() {
-  return 0                    // <- 元の adhoc 関数の中身をコピペします
+  return 0
 }
 
 // テストコード
