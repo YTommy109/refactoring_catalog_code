@@ -1,9 +1,9 @@
 // プロダクトコード
 function adhoc(value=0) {
-  return value                // <-　仮引数を使うように変えます。
+  return value
 }
 
 // テストコード
 it('0 を返すこと', () => {
-  expect(adhoc()).toBe(0)
+  expect(adhoc(0)).toBe(0)    // <- 呼び出す側に引数を追加します。
 })
