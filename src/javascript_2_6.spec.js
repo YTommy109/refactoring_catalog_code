@@ -1,12 +1,12 @@
 // プロダクトコード
 function isHigh(v) {
   const value = v
-  return value >= 50          // <- 作成した変数に切り替えます
+  return value >= 50
 }
 
 function highAndLow(value) {
   let ans = 'Low'
-  if (isHigh(value)) {
+  if (value >= 50) {          // <- インライン化します
     ans = 'High'
   }
   return ans
