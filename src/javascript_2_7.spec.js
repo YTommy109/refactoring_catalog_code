@@ -1,8 +1,4 @@
 // プロダクトコード
-// function adhoc() {         // <- 使わなくなった関数を消します。
-//   return 0                 //
-// }                          //
-
 function zero() {
   return 0
 }
