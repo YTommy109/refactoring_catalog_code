@@ -6,7 +6,7 @@
 
 // プロダクトコード
 function square(size) {
-  return square_new(size)
+  return size * size          // <- square_new のロジックを移します
 }
 
 function square_new(size) {
@@ -15,5 +15,5 @@ function square_new(size) {
 
 // テストコード
 it('正方形の面積を求める', () => {
-  expect(square(5) + ' ㎡').toBe('25 ㎡')  // <- 新しい関数に置き換えます
+  expect(square(5) + ' ㎡').toBe('25 ㎡')
 })
