@@ -5,9 +5,9 @@
  */
 
 // プロダクトコード
-function square(size, unit) {
-  return square_new(size) + ' ' + unit
-}
+// function square(size, unit) {           // <- 使わないので消します
+//   return square_new(size) + ' ' + unit  // <-
+// }                                       // <-
 
 function square_new(size) {
   return size * size
