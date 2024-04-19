@@ -10,12 +10,11 @@ function raise(value, multiplier) {
 }
 
 function raise5(value) {
-  // const multiplier = 5               // <- 使わなくなった変数を消します
-  return raise(value, 5)
+  return raise(value, 5)                // <- 追加した関数に置き換えます。
 }
 
 function raise10(value) {
-  return value * 10
+  return raise(value, 10)               // <- 追加した関数に置き換えます。
 }
 
 // テストコード
