@@ -6,7 +6,7 @@
 
 // プロダクトコード
 function square(size, unit) {
-  return square_new(size) + ' ' + unit  // <- 関数利用に書き換えます
+  return square_new(size) + ' ' + unit
 }
 
 function square_new(size) {
@@ -15,5 +15,5 @@ function square_new(size) {
 
 // テストコード
 it('正方形の面積を求める', () => {
-  expect(square(5, '㎡')).toBe('25 ㎡')
+  expect(square_new(5) + ' ㎡').toBe('25 ㎡')  // <- 新しい関数に置き換えます
 })
