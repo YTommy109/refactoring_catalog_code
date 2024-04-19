@@ -11,8 +11,8 @@ function raise(value, multiplier) {
 
 function raise5(value) {
   const multiplier = 5
-  const ret = raise(value, multiplier)
-  return raise(value, multiplier)       // <- 変数をインライン化します
+  // const ret = raise(value, multiplier) // <- 使わなくなった変数を消します
+  return raise(value, multiplier)
 }
 
 function raise10(value) {
