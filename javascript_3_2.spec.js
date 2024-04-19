@@ -6,6 +6,7 @@
 
 // プロダクトコード
 function square(size, unit) {
+  const menseki = size * size       // <- 面積の計算式を変数に切り出します。
   return size * size + ' ' + unit
 }
 
