@@ -10,18 +10,18 @@ function raise(value, multiplier) {
 }
 
 function raise5(value) {
-  return raise(value, 5)                // <- 追加した関数に置き換えます。
+  return raise(value, 5)
 }
 
 function raise10(value) {
-  return raise(value, 10)               // <- 追加した関数に置き換えます。
+  return raise(value, 10)
 }
 
 // テストコード
 it('5 倍になること', () => {
-  expect(raise5(2)).toBe(10)
+  expect(raise(2, 5)).toBe(10)          // <- 新しい関数への置き換えます
 })
 
 it('10 倍になること', () => {
-  expect(raise10(2)).toBe(20)
+  expect(raise(2, 10)).toBe(20)         // <- 新しい関数への置き換えます
 })
