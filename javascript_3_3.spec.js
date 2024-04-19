@@ -5,10 +5,14 @@
  */
 
 // プロダクトコード
+function raise(value, multiplier) {     // <- 式の部分を外部関数にします
+  return value * multiplier             // <-
+}                                       // <-
+
 function raise5(value) {
   const multiplier = 5
   const ret = value * multiplier
-  return ret                            // <- 戻り値をローカル変数に変えます
+  return ret
 }
 
 function raise10(value) {
