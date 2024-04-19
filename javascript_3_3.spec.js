@@ -10,8 +10,8 @@ function raise(value, multiplier) {
 }
 
 function raise5(value) {
-  const multiplier = 5
-  return raise(value, 5)                // <- 変数のインライン展開します
+  // const multiplier = 5               // <- 使わなくなった変数を消します
+  return raise(value, 5)
 }
 
 function raise10(value) {
