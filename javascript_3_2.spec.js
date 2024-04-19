@@ -6,12 +6,12 @@
 
 // プロダクトコード
 function square(size) {
-  return size * size          // <- square_new のロジックを移します
-}
-
-function square_new(size) {
   return size * size
 }
+
+// function square_new(size) {  // <- 使わないので消します
+//   return size * size         // <-
+// }                            //
 
 // テストコード
 it('正方形の面積を求める', () => {
