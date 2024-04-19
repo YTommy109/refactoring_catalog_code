@@ -6,12 +6,11 @@
 
 // プロダクトコード
 function square(size, unit) {
-  const menseki = size * size
-  return menseki + ' ' + unit
+  return square_new(size) + ' ' + unit  // <- 関数利用に書き換えます
 }
 
 function square_new(size) {
-  return size * size                    // <- 面積の計算を関数に切り出します。
+  return size * size
 }
 
 // テストコード
