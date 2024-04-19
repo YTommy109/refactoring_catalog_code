@@ -6,7 +6,8 @@
 
 // プロダクトコード
 function raise5(value) {
-  return value * 5
+  const multiplier = 5                  // <- 直値をローカル変数にします
+  return value * multiplier             // <-
 }
 
 function raise10(value) {
