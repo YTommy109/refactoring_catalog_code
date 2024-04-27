@@ -5,12 +5,10 @@ function fizz(val) {
 
 function main() {
   let ret = []
-  // for (let i=1; i<=3; i++) {     // <- 消します
-  //   ret.push(fizz(i))            // <-
-  // }                              // <-
+
   ret = [1,2,3].map(fizz)
 
-  return ret
+  return [1,2,3].map(fizz)        // <- 変数のインライン化をします
 }
 
 // テストコード
