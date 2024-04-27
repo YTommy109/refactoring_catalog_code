@@ -4,9 +4,9 @@ function fizz(val) {
 }
 
 function main() {
-  const ret = []
+  let ret = []                      // <- let に変更します
   for (let i=1; i<=3; i++) {
-    ret.push(fizz(i))                     // <- 変数をインライン化します
+    ret.push(fizz(i))
   }
 
   return ret
