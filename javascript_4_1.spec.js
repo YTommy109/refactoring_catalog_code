@@ -1,12 +1,12 @@
 // プロダクトコード
-function fizz(val) {                              // <- 引数名を変えます
-  return val===3 ? 'Fizz' : String(val)           // <-
+function fizz(val) {
+  return val===3 ? 'Fizz' : String(val)
 }
 
 function main() {
   const ret = []
   for (let i=1; i<=3; i++) {
-    const temp = i === 3 ? 'Fizz' : String(i)
+    const temp = fizz(i)                  // <- 追加した関数を使うようにします
     ret.push(temp)
   }
 
