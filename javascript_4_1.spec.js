@@ -5,10 +5,10 @@ function fizz(val) {
 
 function main() {
   let ret = []
-  for (let i=1; i<=3; i++) {
-    ret.push(fizz(i))
-  }
-  ret = [1,2,3].map(fizz)           // <- ret に map で上書きします
+  // for (let i=1; i<=3; i++) {     // <- 消します
+  //   ret.push(fizz(i))            // <-
+  // }                              // <-
+  ret = [1,2,3].map(fizz)
 
   return ret
 }
