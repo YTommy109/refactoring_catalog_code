@@ -6,8 +6,7 @@ function fizz(val) {
 function main() {
   const ret = []
   for (let i=1; i<=3; i++) {
-    const temp = fizz(i)                  // <- 追加した関数を使うようにします
-    ret.push(temp)
+    ret.push(fizz(i))                     // <- 変数をインライン化します
   }
 
   return ret
