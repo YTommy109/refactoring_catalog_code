@@ -2,7 +2,8 @@
 function main() {
   const ret = []
   for (let i=1; i<=3; i++) {
-    ret.push(i===3 ? 'Fizz' : String(i))
+    const temp = i === 3 ? 'Fizz' : String(i)   // <- 変数を抽出します
+    ret.push(temp)
   }
 
   return ret
@@ -12,10 +13,3 @@ function main() {
 it('', () => {
   expect(main()).toEqual(['1', '2', 'Fizz'])
 })
-
-/**
- * FizzBuzz のうち、 1 から 3 まで動作するコードがあります。
- * 十分に短いコードですが、ループの中に分岐処理 (三項演算子) があり、
- * 不吉な匂いを感じます。なんとなく、このまま処理を追加してゆくことに
- * 不安を感じるので、リファクタリングすることにしましょう。
- */
